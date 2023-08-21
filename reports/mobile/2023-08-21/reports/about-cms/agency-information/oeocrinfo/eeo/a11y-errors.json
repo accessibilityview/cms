@@ -1,0 +1,54 @@
+[
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-DL",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,0,DIV,0,DIV,3,DIV,0,INNER,0,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,0,DIV,5,DL",
+            "selector": "div.node__content > div.field > div.rxbodyfield > dl",
+            "boundingRect": {
+              "top": 1363,
+              "bottom": 1660,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 297
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Ronza Othman\nEEO Counseling/ADR Coordinator\nDirect office number: (410) 786-327…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
