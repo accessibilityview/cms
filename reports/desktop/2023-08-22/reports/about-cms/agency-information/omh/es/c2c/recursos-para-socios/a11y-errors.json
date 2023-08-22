@@ -1,0 +1,77 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,3,DIV,0,INNER,0,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,30,DIV,0,DIV,16,DIV,1,DIV,0,P,1,A",
+            "selector": "div.ds-u-clearfix > div.ds-u-overflow--hidden > p.ds-u-margin-y--1 > a",
+            "boundingRect": {
+              "top": 6622,
+              "bottom": 6643,
+              "left": 550,
+              "right": 554,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"#https://www.medicaid.gov/medicaid/benefits/downloads/medicaid-chip-telehe…\" data-once=\"linkMatch\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-A",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,3,DIV,0,INNER,0,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,30,DIV,0,DIV,16,DIV,1,DIV,0,P,3,A",
+            "selector": "div.ds-u-clearfix > div.ds-u-overflow--hidden > p.ds-u-margin-y--1 > a",
+            "boundingRect": {
+              "top": 6622,
+              "bottom": 6643,
+              "left": 564,
+              "right": 568,
+              "width": 4,
+              "height": 21
+            },
+            "snippet": "<a href=\"#https://www.medicaid.gov/medicaid/benefits/downloads/medicaid-chip-telehe…\" data-once=\"linkMatch\">",
+            "nodeLabel": " ",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

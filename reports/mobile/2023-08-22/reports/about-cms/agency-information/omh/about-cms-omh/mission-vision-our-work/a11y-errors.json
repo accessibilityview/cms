@@ -1,0 +1,53 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-H4",
+            "path": "1,HTML,1,BODY,0,DIV,1,DIV,0,DIV,0,MAIN,0,DIV,1,DIV,0,DIV,3,DIV,0,INNER,0,DIV,2,DIV,0,DIV,1,ARTICLE,0,DIV,0,DIV,1,DIV,1,DIV,0,H4",
+            "selector": "div.field > div.ds-l-row > div.ds-l-col--9 > h4.ds-u-padding-left--1",
+            "boundingRect": {
+              "top": 941,
+              "bottom": 964,
+              "left": 107,
+              "right": 404,
+              "width": 297,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"ds-u-padding-left--1 ds-u-margin-bottom--2\">",
+            "nodeLabel": "Mission",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
